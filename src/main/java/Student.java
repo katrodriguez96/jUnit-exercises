@@ -26,7 +26,7 @@ public class Student {
         for (int grade : grades){
             sum += grade;
         }
-        return sum / grades.size();
+        return (double) sum / grades.size();
     }
     public void updateGrade(int index, int grade){
         this.grades.set(index, grade);

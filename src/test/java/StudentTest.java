@@ -48,7 +48,7 @@ public class StudentTest {
         testStudent.addGrade(100);
         double testAverage = 93.3;
 
-        assertEquals(testAverage, testStudent.getGradeAverage(), 0.3);
+        assertEquals(testAverage, testStudent.getGradeAverage(), 0.1);
     }
     @Test
     public void updateGradeMethod(){
